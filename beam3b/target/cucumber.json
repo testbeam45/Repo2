@@ -1,0 +1,74 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10596560200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initialization()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Search files in the repository",
+        "description": "",
+        "id": "github-website-tests;search-files-in-the-repository;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 110200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 777151000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35807200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User launches the browser and enters desired URL",
+            "match": {
+              "location": "StpSearchRepo.userLaunchesTheBrowserAndEntersDesiredURL()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario3"
+          },
+          {
+            "name": "@All"
+          }
+        ]
+      }
+    ],
+    "name": "Github website tests",
+    "description": "",
+    "id": "github-website-tests",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/github.feature",
+    "tags": []
+  }
+]
